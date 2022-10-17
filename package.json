@@ -1,0 +1,25 @@
+{
+  "name": "arweave-transaction-downloader",
+  "version": "1.0.0",
+  "description": "This project download a big transaction data from arweave store.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takeshi-su57/arweave-transaction-download.git"
+  },
+  "author": "takeshi.suzuki61@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takeshi-su57/arweave-transaction-download/issues"
+  },
+  "homepage": "https://github.com/takeshi-su57/arweave-transaction-download#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "command-line-args": "^5.2.1",
+    "promise-fs": "^2.1.1"
+  },
+  "type": "module"
+}
